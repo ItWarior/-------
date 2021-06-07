@@ -1,0 +1,74 @@
+body{
+   margin: 0 auto;
+}
+#back{
+background-image: url('fon.png');
+height: 400px;
+width: 600px;
+margin: 0 auto;
+background-size: 100%;
+position: relative;
+
+
+}
+#score{
+   font-size: 50px;
+   color: #222222ad;
+   font-weight: 700;
+   position: absolute;
+   top: 5px;
+   left: 10px;
+   display: none;
+}
+#ball{
+   position: absolute;
+   top: -200px;
+   right: -200px;
+   border-radius: 100%;
+   height: 50px;
+   width: 50px;
+   background: rgb(123, 9, 230);
+   display: none;
+   transition: all 1s;
+}
+
+#life{
+   position: absolute;
+   right: 10px;
+   top: 10px;
+   display: block;
+}
+
+#life span{
+   display: block;
+   height: 25px;
+   width: 25px;
+   border-radius: 100%;
+   background-color: darkgoldenrod;
+   float: left;
+   border: 3px solid red;
+}
+
+#start-blok{
+   width: 100%;
+   height: 100%;
+   background-color: darkgray;
+   border: 3px solid blueviolet;
+   position: absolute;
+}
+
+#knopka-start{
+   margin: 157px auto 0 ;
+   display: block;
+   padding: 20px 50px;
+   font-size: 25px;
+}
+
+#knopka{
+   display: block;
+   margin: 30px auto 0 ;
+}
+
+#timer-block{
+   margin-left: 310px;
+}

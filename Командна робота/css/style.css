@@ -1,0 +1,280 @@
+body{
+   margin: 0 auto;
+   background-image: url(../img/maxresdefault.jpg);
+   background-size: cover;
+}
+/* стилі для нашої шапки */
+#heder{
+   background: rgb(240, 41, 41);
+   width: 600px;
+   height: 60px;
+   position: relative;
+   margin-right: auto;
+   margin-left: auto; 
+   border: 4px solid #191970;
+   margin-top: 10px;
+   background-image: url(../img/unnamed.jpg);
+   background-size: cover;
+}
+#timer-game{
+   width: 50%;
+   height: 100%;
+   position: absolute;
+}
+#timer-game h2{
+   color: #6A5ACD;
+   margin: 0;
+   float: left;
+   position: absolute;
+   left: 20px;
+   top: 10px;
+   font-size: 38px;
+   font-style: oblique;
+}
+.time-number{
+   color: #34c1b6
+}
+#gap{
+   color: red;
+}
+#life-block{
+   width: 50%;
+   height: 100%;
+   float: right;
+}
+#life-block .lifes{
+   float: right;
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-image: url(..//img/life.png);
+   border: none;
+   background-size: cover;
+}
+/* стилі для нашого блоку гри */
+#game{
+   margin-right: auto;
+   margin-left: auto; 
+   width: 600px;
+   height: 400px;
+   position: relative;
+   overflow: hidden;
+   border: 4px solid #191970;
+   top: 2px;
+}
+/* стилі для стартового поля */
+#start-field{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-image: url(../img/Bg_Spaceport.png);
+   background-size: cover;
+   display: block;
+}
+#start-field button{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background-image: url(../img/earth.png);
+   background-size: cover;
+   position: absolute;
+   left: 250px;
+   top: 150px;
+   margin-left: auto;
+   cursor: pointer;
+   outline: none;
+}
+/* стилі для блоку процесу гри */
+#playing-field{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: rgb(73, 20, 220);
+   display: block;
+   background-image: url(../img/fon.jpg);
+   background-size: cover;
+}
+#blackholeImg{
+   width: 70px;
+   height: 70px;
+   background-image: url(../img/Space_-_Flat.png);
+   position: absolute;
+   margin: 0 auto;
+   background-size: 100%;
+   display: block;
+}
+
+#spaceship{
+   top:0;
+   width: 50px;
+   height: 50px;
+   margin: 0 auto;
+   background-image: url(../img/spaceship.png);
+   background-size: 100%;
+   position: absolute;
+   display: block;
+   transition-duration: 0.2s;
+   transition-property: transform;
+}
+#meteorite1{
+   width: 80px;
+   height: 80px;
+   margin: 0 auto;
+   background-image: url(../img/meteorite.png);
+   background-size: cover;
+   position: absolute;
+   top: 0px;
+   left: -100px;
+   transition: all 6s;
+}
+
+#meteorite2{
+   width: 80px;
+   height: 80px;
+   margin: 0 auto;
+   background-image: url(../img/meteorite.png);
+   transform: rotate(90deg);
+   background-size: cover;
+   position: absolute;
+   top: 0px;
+   left: -100px;
+   transition: all 6s;
+}
+
+#meteorite3{
+   width: 80px;
+   height: 80px;
+   margin: 0 auto;
+   background-image: url(../img/meteorite.png);
+   transform: rotate(180deg);
+   background-size: cover;
+   position: absolute;
+   top: 0px;
+   left: -100px;
+   transition: all 6s;
+}
+
+#meteorite4{
+   width: 80px;
+   height: 80px;
+   margin: 0 auto;
+   background-image: url(../img/meteorite.png);
+   transform: rotate(180deg);
+   background-size: cover;
+   position: absolute;
+   top: 0px;
+   left: -100px;
+   transition: all 6s;
+}
+
+#ufo{
+   width: 80px;
+   height: 80px;
+   margin: 0 auto;
+   background-image: url(../img/ufo.png);
+   background-size: cover;
+   position: absolute;
+   top: 0px;
+   left: -100px;
+   transition: all 4s;
+}
+
+#extraLife{
+   width: 80px;
+   height: 80px;
+   margin: 0 auto;
+   background-image: url(../img/heartNew.png);
+   background-size: cover;
+   position: absolute;
+   top: 0px;
+   left: -100px;
+   transition: all 6s;
+}
+/* стилі для блоку завершення гри */
+
+#game-over-field{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-image: url(../img/fonGameOver.jpg);
+   background-size: cover;
+   display: block;
+   
+}
+#timer-game h2{
+   color: blue;
+   font-size: 30px;
+   top: 10px;
+}
+
+#game h2{
+   color: black;
+   font-size: 70px;
+   top: 30px;
+   right: 150px;
+   position: absolute;
+}
+
+#button-restart{
+   width: 50px;
+   height: 50px;
+   background: blue;
+   border-radius: 50%;
+   position: absolute;
+   right: 275px;
+   top: 300px;
+   cursor: pointer;
+   outline: none;
+   background-image: url(../img/mars.png);
+   background-size: cover;
+}
+
+#your-time{
+   position: absolute;
+   top: 30px;
+   left: 150px; 
+   color: white;
+   font-style: fantasy;
+   font-size: 40px;
+   background: black;
+}
+
+#your-best-time{
+   position: absolute;
+   top: 90px;
+   left: 155px; 
+   color: white;
+   font-style: fantasy;
+   font-size: 30px;
+   background: black;   
+}
+
+/* Розворот корабля */
+.right{
+   
+   transform: rotate(0deg);
+  }
+  
+ .down{
+   transform: rotate(90deg);
+  }
+  
+  .left{
+   transform: rotate(180deg);
+  }
+  
+  .up{
+   transform: rotate(270deg);
+  }
+
+  .leftMeteor{
+   position: absolute;
+   top: 0px;
+   left: -100px; 
+}
+
+.rightMeteor{
+   position: absolute;
+   top: 0px;
+   left: 650px; 
+}

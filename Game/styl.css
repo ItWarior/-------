@@ -1,0 +1,96 @@
+body{
+   margin: 0 auto;
+}
+#back{
+background-image: url('img/fon.png');
+height: 400px;
+width: 600px;
+margin: 0 auto;
+background-size: 100%;
+position: relative;
+overflow: hidden;
+}
+#score{
+   font-size: 50px;
+   color: #888686ad;
+   font-weight: 700;
+   position: absolute;
+   top: 5px;
+   left: 10px;
+   display: block;
+}
+.ball{
+   position: absolute;
+   top: -200px;
+   right: -200px;
+   border-radius: 100%;
+   height: 50px;
+   width: 50px;
+   background: rgb(123, 9, 230);
+   display: block;
+   transition: all 1s;
+}
+.left{
+ top: 500px;
+ right:700px;  
+}
+.right{
+top:500px;
+right:-100px;
+}
+
+#life{
+   position: absolute;
+   right: 10px;
+   top: 10px;
+
+}
+
+#life-span{
+
+   height: 25px;
+   width: 25px;
+   border-radius: 100%;
+   background-color: darkgoldenrod;
+   float: left;
+   border: 3px solid red;
+}
+
+#start-block{
+   width: 100%;
+   height: 100%;
+   background-color: darkgray;
+   border: 3px solid blueviolet;
+   position: absolute;
+}
+
+#knopka-start{
+   margin: 157px auto 0 ;
+   display: block;
+   padding: 20px 50px;
+   font-size: 25px;
+}
+
+#knopka{
+   display: block;
+   margin: 30px auto 0 ;
+}
+
+#timer-block{
+   margin-left: 310px;
+}
+#gameOver {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: #3d3dc0;
+   text-align: center;
+   font-size: 40px;
+   top: 0;
+   left: 0;
+   color: azure;
+}
+
+.boom{
+   background-color:red;
+}
